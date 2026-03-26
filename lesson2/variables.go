@@ -48,4 +48,38 @@ func main() {
   fmt.Println(x)
   fmt.Println(y)
   fmt.Println(z)
+
+
+  var l, m, n, o int = 1, 3, 5, 7 // If use the type keyword, it is only possible to declare one type of variable per line.
+
+  fmt.Println(l)
+  fmt.Println(m)
+  fmt.Println(n)
+  fmt.Println(o)
+
+  var e, f = 6, "Hello"
+  g, h := 7, "World!"
+
+  fmt.Println(e)
+  fmt.Println(f)
+  fmt.Println(g)
+  fmt.Println(h)
+
+  var (
+    variable1 int
+    variable2 int = 1
+    variable3 string = "hello"
+  )
+
+ fmt.Println(variable1)
+ fmt.Println(variable2)
+ fmt.Println(variable3)
+
+ // A variable name must start with a letter or an underscore character (_)
+ // A variable name cannot start with a digit
+ // A variable name can only contain alpha-numeric characters and underscores (a-z, A-Z, 0-9, and _ )
+ // Variable names are case-sensitive (age, Age and AGE are three different variables)
+ // There is no limit on the length of the variable name
+ // A variable name cannot contain spaces
+ // The variable name cannot be any Go keywords
 }
